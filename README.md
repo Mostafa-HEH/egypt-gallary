@@ -4,7 +4,7 @@
 
  ---> step by step
  1. first i make simple html5 file that have three parts
- 			- head and it contain link to style cheet an font recorse from google fonts , and last link for browser icon tab.
+ 			- head and it contains link to style cheet an font recourse from google fonts , and last link for browser icon tab.
  			- div tag that i called it container and it contains photos and locations.
  			- footer and it contains my accounts.
  2. i collected some photos from unsplash.
