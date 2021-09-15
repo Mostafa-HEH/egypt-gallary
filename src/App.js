@@ -2,7 +2,8 @@ import React from "react";
 
 import "./App.scss";
 
-import Image from "./components/Image/Image";
+import Heading from "./components/Heading/Heading";
+import ImagesContainer from "./components/Images-container/Images-container";
 
 class App extends React.Component {
   constructor() {
@@ -58,13 +59,11 @@ class App extends React.Component {
   }
 
   render() {
+    const { images } = this.state;
     return (
       <div className="App">
-        <div className="images-container">
-          {this.state.images.map(({ id, url }) => (
-            <Image key={id} src={url} spStyle={`for${id}`} />
-          ))}
-        </div>
+        <Heading />
+        <ImagesContainer images={images} />
       </div>
     );
   }

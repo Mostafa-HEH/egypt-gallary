@@ -7,8 +7,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-family: "Courier Prime", monospace;
   background-color: #d3d3d3;
-  width: 100vw;
-  height: 100vh;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.3) -14%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(0, 0, 0, 0.3) 114%
+  );
 }
 
 code {
