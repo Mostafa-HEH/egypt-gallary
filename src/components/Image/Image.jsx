@@ -5,7 +5,7 @@ import "./Image.scss";
 const Image = ({ src, spStyle, id, imgClickHandler }) => (
   <div
     className={`image ${spStyle}`}
-    onClick={() => imgClickHandler(id)}
+    onClick={imgClickHandler.bind(this, id)}
     key={id}
   >
     <div className="image__box">

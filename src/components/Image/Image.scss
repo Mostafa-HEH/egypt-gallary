@@ -11,6 +11,9 @@
     rgba(0, 0, 0, 0.37) -1px 0px 4px inset;
   border: 0.6rem solid #f5f5f5;
   cursor: pointer;
+  @media screen and (max-width: 500px) {
+    position: static;
+  }
 
   & .image__box {
     width: 80%;
@@ -28,6 +31,20 @@
     left: 8rem;
     width: 12rem;
     height: 7rem;
+    @media screen and (max-width: 900px) {
+      left: 15rem;
+      width: 8rem;
+      height: 5rem;
+    }
+    @media screen and (max-width: 677px) {
+      left: 31rem;
+      top: 1rem;
+      z-index: 5;
+    }
+    @media screen and (max-width: 500px) {
+      width: 12rem;
+      height: 7rem;
+    }
   }
 
   &.for2 {
@@ -35,6 +52,15 @@
     left: 22rem;
     width: 12rem;
     height: 15rem;
+    @media screen and (max-width: 900px) {
+      left: 25rem;
+      width: 9rem;
+      height: 12rem;
+    }
+    @media screen and (max-width: 500px) {
+      width: 12rem;
+      height: 15rem;
+    }
   }
   &.for3 {
     top: 2rem;
@@ -42,6 +68,17 @@
     width: 13rem;
     height: 13rem;
     border: 0.6rem solid #000000;
+    @media screen and (max-width: 900px) {
+      width: 10rem;
+      height: 10rem;
+    }
+    @media screen and (max-width: 677px) {
+      z-index: 5;
+    }
+    @media screen and (max-width: 500px) {
+      width: 13rem;
+      height: 13rem;
+    }
   }
 
   &.for4 {
@@ -50,12 +87,42 @@
     width: 9rem;
     height: 9rem;
     border: 0.6rem solid #000000;
+    @media screen and (max-width: 900px) {
+      top: 8rem;
+      left: 48rem;
+      width: 6rem;
+      height: 6rem;
+    }
+    @media screen and (max-width: 677px) {
+      top: 9rem;
+      left: 41rem;
+      z-index: 5;
+    }
+    @media screen and (max-width: 500px) {
+      width: 9rem;
+      height: 9rem;
+    }
   }
   &.for5 {
     top: 18rem;
     left: 11rem;
     width: 9rem;
     height: 9rem;
+    @media screen and (max-width: 900px) {
+      top: 16rem;
+      left: 18rem;
+      width: 5rem;
+      height: 5rem;
+    }
+    @media screen and (max-width: 677px) {
+      top: 0rem;
+      left: 42rem;
+      z-index: 5;
+    }
+    @media screen and (max-width: 500px) {
+      width: 9rem;
+      height: 9rem;
+    }
     & .image__box {
       border-radius: 50%;
       & img {
@@ -69,6 +136,19 @@
     width: 9rem;
     height: 12rem;
     border: 0.6rem solid #000000;
+    @media screen and (max-width: 900px) {
+      top: 14rem;
+      left: 25rem;
+      width: 6rem;
+      height: 8rem;
+    }
+    @media screen and (max-width: 677px) {
+      z-index: 2;
+    }
+    @media screen and (max-width: 500px) {
+      width: 9rem;
+      height: 12rem;
+    }
   }
   &.for7 {
     top: 17rem;
@@ -76,29 +156,99 @@
     width: 16rem;
     height: 13rem;
     border: 0.6rem solid #000000;
+    @media screen and (max-width: 900px) {
+      top: 14rem;
+      width: 13rem;
+      height: 10rem;
+    }
+    @media screen and (max-width: 677px) {
+      z-index: 3;
+    }
+    @media screen and (max-width: 500px) {
+      width: 16rem;
+      height: 13rem;
+    }
   }
   &.for8 {
     top: 19rem;
     left: 51rem;
     width: 9rem;
     height: 11rem;
+    @media screen and (max-width: 900px) {
+      top: 16rem;
+      left: 48rem;
+      width: 6rem;
+      height: 7rem;
+    }
+    @media screen and (max-width: 677px) {
+      top: 18rem;
+      left: 42rem;
+      z-index: 4;
+    }
+    @media screen and (max-width: 500px) {
+      width: 9rem;
+      height: 11rem;
+    }
   }
   &.for9 {
     top: 31rem;
     left: 16rem;
     width: 10rem;
     height: 6rem;
+    @media screen and (max-width: 900px) {
+      top: 24rem;
+      left: 22rem;
+      width: 7rem;
+      height: 5rem;
+    }
+    @media screen and (max-width: 677px) {
+      top: 22rem;
+      left: 27rem;
+    }
+    @media screen and (max-width: 500px) {
+      width: 10rem;
+      height: 6rem;
+    }
   }
   &.for10 {
     top: 32rem;
     left: 28rem;
     width: 13rem;
     height: 8rem;
+    @media screen and (max-width: 900px) {
+      top: 26rem;
+      left: 31rem;
+      width: 10rem;
+      height: 7rem;
+    }
+    @media screen and (max-width: 677px) {
+      top: 9rem;
+      left: 27rem;
+      z-index: 2;
+    }
+    @media screen and (max-width: 500px) {
+      width: 13rem;
+      height: 8rem;
+    }
   }
   &.for11 {
     top: 32rem;
     left: 43rem;
     width: 6rem;
     height: 6rem;
+    @media screen and (max-width: 900px) {
+      top: 26rem;
+      width: 4rem;
+      height: 4rem;
+    }
+    @media screen and (max-width: 677px) {
+      top: 22rem;
+      left: 36rem;
+      z-index: 3;
+    }
+    @media screen and (max-width: 500px) {
+      width: 6rem;
+      height: 6rem;
+    }
   }
 }

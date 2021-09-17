@@ -15,6 +15,18 @@ class ImagePreview extends React.Component {
       imageInPreview: this.images.findIndex((img) => img.id === this.imgInf.id),
     };
   }
+
+  componentDidMount() {
+    document.addEventListener("keydown", (e) => {
+      if (
+        e.key === "Escape" &&
+        this.containerRef.current.classList.contains("Image-preview--active")
+      ) {
+        this.containerRef.current.classList.remove("Image-preview--active");
+      } else return;
+    });
+  }
+
   render() {
     const { url, place } = this.images[this.state.imageInPreview];
 
