@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.a9822f29.chunk.css",
-    "main.js": "/static/js/main.be5d7eec.chunk.js",
-    "main.js.map": "/static/js/main.be5d7eec.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.241adf72.js",
-    "runtime-main.js.map": "/static/js/runtime-main.241adf72.js.map",
-    "static/js/2.77e8cd93.chunk.js": "/static/js/2.77e8cd93.chunk.js",
-    "static/js/2.77e8cd93.chunk.js.map": "/static/js/2.77e8cd93.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.a9822f29.chunk.css.map": "/static/css/main.a9822f29.chunk.css.map",
-    "static/js/2.77e8cd93.chunk.js.LICENSE.txt": "/static/js/2.77e8cd93.chunk.js.LICENSE.txt"
+    "main.css": "/Mostafa-HEH/egypt-gallary/static/css/main.a9822f29.chunk.css",
+    "main.js": "/Mostafa-HEH/egypt-gallary/static/js/main.be5d7eec.chunk.js",
+    "main.js.map": "/Mostafa-HEH/egypt-gallary/static/js/main.be5d7eec.chunk.js.map",
+    "runtime-main.js": "/Mostafa-HEH/egypt-gallary/static/js/runtime-main.21784dae.js",
+    "runtime-main.js.map": "/Mostafa-HEH/egypt-gallary/static/js/runtime-main.21784dae.js.map",
+    "static/js/2.77e8cd93.chunk.js": "/Mostafa-HEH/egypt-gallary/static/js/2.77e8cd93.chunk.js",
+    "static/js/2.77e8cd93.chunk.js.map": "/Mostafa-HEH/egypt-gallary/static/js/2.77e8cd93.chunk.js.map",
+    "index.html": "/Mostafa-HEH/egypt-gallary/index.html",
+    "static/css/main.a9822f29.chunk.css.map": "/Mostafa-HEH/egypt-gallary/static/css/main.a9822f29.chunk.css.map",
+    "static/js/2.77e8cd93.chunk.js.LICENSE.txt": "/Mostafa-HEH/egypt-gallary/static/js/2.77e8cd93.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.241adf72.js",
+    "static/js/runtime-main.21784dae.js",
     "static/js/2.77e8cd93.chunk.js",
     "static/css/main.a9822f29.chunk.css",
     "static/js/main.be5d7eec.chunk.js"
